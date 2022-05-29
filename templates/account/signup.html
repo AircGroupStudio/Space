@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+<title>Мультфильмы</title>
+            <link rel="shortcut icon" href="https://cdn.glitch.global/d76dc213-b554-42be-b1e3-6060b8c0897c/Group%205.png?v=1652178504736"/favicon1.ico">
+
+    <link rel="stylesheet" href="{% static 'Login/css/style.css' %}" />
+    <script src="{% static 'Login/css/script.js' %}" defer></script>
+
+  </head>
+  <body>
+    <!-- navbar -->
+     <nav class="nav">
+      
+<a href="#" id="pull"></a>
+       <div class="navbarlogo">
+         <a href="https://rocky-quill-naranja.glitch.me"><img class ="navbarnavlogo" src="https://cdn.glitch.global/28cb0710-212f-4ced-a96e-c9d44f2adc7e/0b9c4b43-5532-4f36-84a0-e429fe70fd8d.image.png?v=1651304837780"></a>
+            </div>
+
+<div class="dera">
+                  <a href=" https://t.me/MegaSpaceEnglish"><img class="telegrams" src="https://cdn.glitch.global/28cb0710-212f-4ced-a96e-c9d44f2adc7e/b4709766-d4b1-49f5-8796-62f4fa8c0f1a.image.png?v=1651351276508"></a>
+     <a href="  https://www.instagram.com/my_englishspace/"><img class="insta" src="https://cdn.glitch.global/d76dc213-b554-42be-b1e3-6060b8c0897c/instagram_f_icon-icons.com_65485.png?v=1652181404290"></a>
+     <a href=" https://www.tiktok.com/@space.english"><img class="tiktoks" src="https://cdn.glitch.global/28cb0710-212f-4ced-a96e-c9d44f2adc7e/925dc06b-992e-48d8-812d-e02ea332a88b.image.png?v=1651353783226"></a>
+     </div>
+             <a href="https://oval-grizzly-march.glitch.me"><img class="clean" src="https://cdn.glitch.global/28cb0710-212f-4ced-a96e-c9d44f2adc7e/27dc8d5a-8d6b-4e85-a624-6998c7c93894.image.png?v=1651355047592"></a>
+
+   </nav>
+            
+       <!-- navbar -->
+       <!--forms-->
+       
+<div class="login">
+  <h2 class="nonactive"><a style="padding: 0px;margin: 0px;top: 0px" href="../login">Войти</a></h2>
+
+  <h2 class="active"> Зарегестрироваться </h2>
+  <form method="POST">
+  	{% csrf_token %}
+   
+    
+
+    {{ form.email }}
+    <span>имя пользователя</span>
+
+    <br>
+    
+    <br>
+
+    {{ form.password }}
+    <span>пароль</span>
+    
+    <br>
+    
+    <br>
+
+    {{form.password_confirm}}
+    <span>Повторите пароль:</span>
+
+   
+    <button class="signin" type="submit">
+      Войти
+    </button>
+
+
+
+    <hr>
+    {{form.error}}
+  </form>
+
+</div>
+              <!--forms-->
+
+       
+       
+       
+  </body>
+</html>

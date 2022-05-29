@@ -1,0 +1,533 @@
+@media screen(max-width: 480px){
+  body{
+    overflow-x: hidden;
+  }
+  }
+body{
+      overflow-x: hidden;
+      background-color: #839788;
+
+}
+iframe > body{
+  width: 500px;
+}
+.b {
+  display: -webkit-flex;
+
+  display: -moz-flex;
+
+  display: -ms-flex;
+
+  display: -o-flex;
+
+  display: inline;
+
+  justify-content: center;
+}
+
+.b img {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+          display: block;
+
+}
+
+.color {
+position: relative;
+width: 2015px;
+height: 3300px;
+background: #839788;
+          display: block;
+
+}
+
+.nav {
+  position: absolute;
+  width: 1035px;
+  height: 53px;
+  left: 382px;
+  top: 61px;
+
+}
+
+.film {
+  position: absolute;
+width: 176px;
+height: 50px;
+left: 710px;
+top: 54px;
+margin-left: -470px;
+  margin-top: -80px;
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+line-height: 24px;
+text-align: center;
+
+color: #E5D1D0;
+}
+
+.tails {
+  position: absolute;
+  margin-left: -400px;
+  margin-top: -65px;
+  padding: 2em;
+ left: 1050px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 170px;
+
+  height: 46px;
+
+
+  top: 68px;
+
+  font-style: normal;
+
+  font-weight: 900;
+
+  font-size: 25px;
+
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #e5d1d0;
+}
+.listen {
+position: absolute;
+  margin-left: -450px;
+  margin-top: -70px;  padding: 2em;
+
+  transform: translate(-50%, -50%);
+  width: 171px;
+  height: 29px;
+  left: 1400px;
+  top: 72px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #e5d1d0;
+}
+
+a,
+u {
+  text-decoration: none !important;
+}
+
+.dera{
+  position: absolute;
+width: 107px;
+height: 32px;
+left: 1264px;
+top: 65px;
+}
+.telegrams{
+  position: absolute;
+width: 28px;
+height: 28px;
+left: 170px;
+top: -80px;
+}
+.insta{
+  position: absolute;
+width: 22px;
+height: 22px;
+left: 213px;
+top: -77px;
+}
+.tiktoks{
+  position: absolute;
+width: 28px;
+height: 28px;
+left: 250px;
+top: -80px;
+}
+.clean{
+  position: absolute;
+width: 36px;
+height: 36px;
+left: 1550px;
+top: -20px;
+
+}
+.some{
+position: absolute;
+width: 467px;
+height: 181px;
+left: 125px;
+top: 297px;
+
+}
+.do{
+ position: absolute;
+width: 186px;
+height: 53px;
+left: 300px;
+top: 75px;
+  right: 900px;
+  bottom: 2459px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 59px;
+
+color: #F5E4D7;
+
+  text-align: justify;
+}
+.make{
+  white-space: nowrap;
+
+position: absolute;
+width: 467px;
+height: 105px;
+left: 180px;
+top: 280px;
+  right: 90px;
+  bottom: 2000px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+
+color: #F5E4D7;
+
+}
+.claim{
+  position: absolute;
+width: 1100px;
+height: 900px;
+left: 900px;
+top: 165px;
+  transform: skew(180deg);
+
+background: url(casual-life-3d-likes.png);
+border-radius: 326px 365.678px 365.678px 298px;
+transform: matrix(-1, 0, 0, 1, 1, 0);
+}
+
+
+/* Group 15 */
+.asi{
+position: absolute;
+width: 1871px;
+height: 332px;
+left: 120px;
+top: 1218px;
+}
+
+
+/* Group 11 */
+.isa{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 60.84%;
+bottom: 0%;
+}
+
+
+/* Видео-уроки без воды */
+.water{
+position: absolute;
+left: 1400px;
+right: 0%;
+top: 60.84%;
+bottom: 18.67%;
+white-space: nowrap;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 40px;
+text-align: center;
+
+color: #F5E4D7;
+}
+
+
+/* Бесплатный доступ */
+.free{
+  
+position: absolute;
+left: 35.76%;
+right: 40.76%;
+top: 60.84%;
+bottom: 18.67%;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+text-align: center;
+
+color: #F5E4D7;
+
+}
+
+/* Общение с людьми на английском языке */
+.communication{
+position: absolute;
+left: 19.38%;
+right: 61.13%;
+top: 60.84%;
+bottom: 7.83%;
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+text-align: center;
+
+color: #F5E4D7;
+}
+
+
+/* Обучение по известным фильмам и мультфильмам */
+.learning{
+position: absolute;
+left: -5%;
+right: 81.51%;
+top: 60.84%;
+bottom: 0%;
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+text-align: center;
+
+color: #F5E4D7;
+}
+
+
+/* Задания на аудирование */
+.audio{
+position: absolute;
+left: 57.13%;
+right: 20.38%;
+top: 60.84%;
+bottom: 13.55%;
+
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 35px;
+/* or 175% */
+text-align: center;
+
+color: #F5E4D7;
+}
+
+
+/* icons8-капля-крови-50 1 */
+.drop{
+position: absolute;
+left: 82%;
+right: 200%;
+top: -170%;
+bottom: 170%;
+    height: 180px;
+  width: 180px;
+}
+
+
+/* icons8-деньги-32 1 */
+.money{
+position: absolute;
+left: 42%;
+right: 45.71%;
+top: -170%;
+bottom: 63.25%;
+height: 200px;
+  width: 200px;
+}
+
+/* icons8-общее-мнение-32 1 */
+.coming{
+position: absolute;
+  left: 22%;
+right: 100%;
+top: -170%;
+bottom: 40%;
+  height: 200px;
+  width: 200px;
+ 
+}
+
+/* icons8-документальный-24 1 */
+.motor{
+position: absolute;
+left: 1%;
+right: 70%;
+top: -160%;
+bottom: 80%;
+   height: 180px;
+  width: 180px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+/* icons8-динамик-24 1 */
+.seem{
+position: absolute;
+left: 63%;
+right: 24.86%;
+top: -170%;
+bottom: 59.94%;
+height: 180px;
+  width: 180px;
+}
+
+.imgend{
+  position: absolute;
+width: 854.19px;
+height: 855px;
+left: 690px;
+top: 1926px;
+
+background: url(casual-life-3d-reading.png);
+}
+.thing{
+  position: absolute;
+width: 620px;
+height: 674px;
+left: 320px;
+top: 280px;
+}
+.level{
+  position: absolute;
+width: 420px;
+height: 74px;
+left: 514px;
+top: 2556px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #F5E4D7;
+
+border: 1px solid #839788;
+}
+.rectangle{
+  position: absolute;
+width: 342px;
+height: 87px;
+left: 553px;
+top: 2643px;
+
+background: #73877B;
+border-radius: 12px;
+}
+.find{
+  position: absolute;
+width: 188px;
+height: 36px;
+left: 90px;
+top: 20px;
+
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+
+color: #F5E4D7;
+
+}
+
+/*footer*/
+.footer{
+  position: absolute;
+
+width: 2012px;
+height: 156px;
+left: -1px;
+top: 3210px;
+border: 1px solid #73877B;
+  background: #73877B;
+}
+.foter{
+  position: absolute;
+
+width: 150px;
+height: 46.36px;
+left: 1621px;
+top: 40px;
+
+}
+.telegram{
+
+width: 40.56px;
+height: 40.56px;
+left: -45px;
+top: 90px;
+  
+}
+.instas{
+
+width: 40.56px;
+height: 40.56px;
+left: 8px;
+top: 90px;
+}
+.tiktok{
+
+width: 46.36px;
+height: 46.36px;
+left: 55px;
+top: 90px;
+}
+.mind{
+
+width: 277px;
+height: 36px;
+left: 48px;
+top: 2848px;
+}
+.luy{
+  position: absolute;
+
+width: 119px;
+height: 36px;
+left: 250px;
+top: 30px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+
+color: #F5E4D7;
+
+}
+.luyo{
+  position: absolute;
+
+width: 117px;
+height: 36px;
+left: 90px;
+top: 30px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+
+color: #F5E4D7;
+}
+/*footer*/
